@@ -16,8 +16,6 @@ describe('index', () => {
   const fixture = `
     <input id="input-box" value="1, 2, 3">
     <button id="max" />
-    <button id="average" />
-    <button id="length" />
     <div id="result-value"></div>
   `;
 

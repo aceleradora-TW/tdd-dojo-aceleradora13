@@ -5,7 +5,7 @@
   "scripts": {
     "test": "mocha-webpack --watch --require source-map-support/register --webpack-config webpack.test-config.js \"src/**/*.spec.js\"",
     "build": "webpack --progress --colors --config webpack.config.js",
-    "start": "webpack-dev-server --port 3000 --progress --colors --inline --hot --content-base dist/ --config webpack.config.js "
+    "start": "webpack-dev-server --progress --colors --inline --hot --content-base dist/ --config webpack.config.js "
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
